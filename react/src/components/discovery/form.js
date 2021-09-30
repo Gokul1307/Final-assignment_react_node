@@ -17,13 +17,13 @@ export const Form= ()=> {
 
     return (
         <div>
-            <form action="http://localhost:8080/createUser" method="post" >
+            <form action="http://localhost:8080/createUser" method="post" body= "name, ques,mob">
                 <label>Full Name:</label>
                 <input type="text" name="name" required onChange={nameUpdate}></input>
                 <label>Questions:</label>
-                <input required onChange={nameUpdate}></input>
+                <input  type="text" name="ques" required onChange={nameUpdate}></input>
                 <label>Mob No.:</label>
-                <input required onChange={nameUpdate}></input>
+                <input  type="text" name="mob " required onChange={nameUpdate}></input>
                 <button type="submit"> Submit</button>
             </form>
         </div>

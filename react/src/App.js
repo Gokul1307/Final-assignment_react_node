@@ -23,10 +23,6 @@ function App() {
             <li>
               <Link to="/login">Login</Link>
             </li>
-            
-            <li>
-              <Link to="/discovery">Discover food joints</Link>
-            </li>
           </ul>
         </nav>
 

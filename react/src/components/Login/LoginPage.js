@@ -1,15 +1,12 @@
 import React, { Component } from "react";
-import { DecodeJWT } from "../../services/JWTService";
-import { AuthUser } from "../../services/AuthService";
-
-
+import { DecodeJWT } from "../services/JWTService";
+import { AuthUser } from "../services/AuthService";
 
 class Login extends Component {
   state = {
     Username: "",
     Password: ""
   };
-  
   handleChange = e => {
     // Here, e is the event.
     // e.target is our element.
@@ -18,7 +15,6 @@ class Login extends Component {
       [e.target.name]: e.target.value
     });
   };
-  
   handleSubmit = e => {
     // Here, e is the event.
     // Let's prevent the default submission event here.
@@ -62,10 +58,6 @@ class Login extends Component {
       }
     });
   };
-
-
-  
-
   SignOutUser = e => {
     // Prevent the default event of reloading the page.
     e.preventDefault();
@@ -123,26 +115,13 @@ class Login extends Component {
                         sign out
                       </button>
                       .
-                    </p><br /><br />
-
-                    <p className="mb-0">
-                      You might want to{" "}
-                      <button
-                        className="btn btn-link"
-                         onClick={event =>  window.location.href='Discovery'}>
-        
-                      
-                        DISCOVER FOOD JOINTS?
-                      </button>
-                      .
                     </p>
-
                   </div>
                 ) : (
                   <div className="card-body">
                     <h5 className="card-title">Sign In</h5>
                     <h6 className="card-subtitle mb-2 text-muted">
-                      Please login in to continue.
+                      Please sign in to continue.
                     </h6>
                     <form onSubmit={this.handleSubmit}>
                       {this.state.Error && (
