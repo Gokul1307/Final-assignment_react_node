@@ -1,0 +1,92 @@
+[
+    {
+       "name": "leela Palace",
+       "location": "Bangalore",
+       "priceForTwo": "Price For Two: 4000",
+       "ratingFor5": "5*",
+       "veg_nonVeg": "Non-Veg"
+     },
+
+
+
+     {
+        "name": "The Table",
+        "location": "Mumbai",
+        "priceForTwo": "Price For Two: 2000",
+        "ratingFor5": "4*",
+        "veg_nonVeg": "Non-Veg"
+      },
+
+
+      {
+        "name": "Palace",
+        "location": "Bangalore",
+        "priceForTwo": "Price For Two: 4000",
+        "ratingFor5": "5*",
+        "veg_nonVeg": "Non-Veg"
+      },
+
+
+      
+     {
+        "name": "Thalassa",
+        "location": "Goa",
+        "priceForTwo": "Price For Two: 8000",
+        "ratingFor5": "4*",
+        "veg_nonVeg": "Veg"
+      },
+
+
+      
+     {
+        "name": "Toast & Tonic",
+        "location": "Bangalore",
+        "priceForTwo": "Price For Two: 500",
+        "ratingFor5": "5*",
+        "veg_nonVeg": "Non-Veg"
+      },
+
+
+
+      
+     {
+        "name": "Trishna",
+        "location": "Mumbai",
+        "priceForTwo": "Price For Two: 4000",
+        "ratingFor5": "5*",
+        "veg_nonVeg": "Non-Veg"
+      },
+
+
+
+      
+     {
+        "name": "Villa Maya",
+        "location": " Trivandrum",
+        "priceForTwo": "Price For Two: 1000",
+        "ratingFor5": "5*",
+        "veg_nonVeg": "Non-Veg"
+      },
+
+
+
+      
+     {
+        "name": "Party Fowl • Nashville, Tennessee",
+        "location": "China",
+        "priceForTwo": "Price For Two: 12000",
+        "ratingFor5": "5*",
+        "veg_nonVeg": "Non-Veg"
+      },
+
+
+      
+     {
+        "name": "Villa Shanti",
+        "location": "Pondicherry",
+        "priceForTwo": "Price For Two: 9000",
+        "ratingFor5": "5*",
+        "veg_nonVeg": "Non-Veg"
+      }
+     
+ ]
